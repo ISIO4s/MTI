@@ -1,0 +1,5 @@
+บิวส์ขึ้น docker 
+docker build -t mti_prb .
+
+รันบน docker
+uvicorn main:app --host 0.0.0.0 --port 8000
